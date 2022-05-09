@@ -1,0 +1,47 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+span {
+    display: inline-block
+}
+
+h1 {
+    display: inline;
+}
+
+#player1 {
+    display: inline-block;
+    background-color: lightgray;
+    padding: 100px;
+    margin-right: 50px;
+}
+
+#player1score {
+    font-size: 100px;;
+}
+
+#player2score {
+    font-size: 100px;;
+}
+
+#player2 {
+    display: inline-block;
+    background-color: lightgray;
+    padding: 100px;
+    margin-right: 50px;
+}
+
+#board {
+    display: flex;
+    flex-direction: row;
+}
+
+#leaderboard {
+    background-color: lightsalmon;
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
